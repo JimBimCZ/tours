@@ -3,6 +3,7 @@ import {Tours} from "./components/Tours.tsx";
 import type {TourData} from "./types/TourData.ts";
 
 const url = 'https://www.course-api.com/react-tours-project';
+//haha
 
 const App = () => {
     const [toursData, setToursData] = useState<TourData[]>([])
