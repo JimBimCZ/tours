@@ -8,5 +8,6 @@ interface Props {
 
 export const Tours = (props: Props) => {
     const {data} = props;
+
     return (<section className='tours'>{data && data.map(datum => <Tour key={datum.id} {...datum} />)}</section>)
 }
